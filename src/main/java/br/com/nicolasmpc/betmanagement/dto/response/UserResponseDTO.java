@@ -10,6 +10,9 @@ public class UserResponseDTO extends DTO {
     private UUID id;
     private String username;
 
+    public UserResponseDTO() {
+    }
+
     public UserResponseDTO(UUID id, String username) {
         super();
         this.id = id;
